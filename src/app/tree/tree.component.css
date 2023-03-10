@@ -1,0 +1,20 @@
+.container {
+  margin-top: 2em;
+}
+
+.form-group {
+  margin-bottom: 1em;
+}
+
+.list-group-item {
+  padding-top: 1em;
+  padding-bottom: 1em;
+}
+
+.list-group-item:first-child {
+  border-top: none;
+}
+
+.list-group-item:last-child {
+  border-bottom: none;
+}

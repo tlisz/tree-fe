@@ -1,0 +1,8 @@
+<div class="node-container" [style.margin-left.px]="50">
+  <div class="node">
+    <span class="node-value">{{node.value}}</span>
+  </div>
+  <div *ngIf="node.children?.length">
+    <app-node *ngFor="let child of node.children" [node]="child"></app-node>
+  </div>
+</div>
