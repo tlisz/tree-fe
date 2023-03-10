@@ -20,7 +20,7 @@ export class NodeService {
   }
 
   updateNode(id: number, value: number): Observable<any> {
-    return this.http.put(`${this.baseUrl}/${id}`, { value: value });
+    return this.http.put(`${this.baseUrl}/${id}`,  value );
   }
 
   deleteNode(id: number): Observable<any> {
